@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713C583027C947CD0072D998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C582F27C947CD0072D998 /* AppDelegate.swift */; };
+		713C583227C947CD0072D998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C583127C947CD0072D998 /* SceneDelegate.swift */; };
+		713C583427C947CD0072D998 /* AstroSurfSearchPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C583327C947CD0072D998 /* AstroSurfSearchPhotoViewController.swift */; };
+		713C583727C947CD0072D998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713C583527C947CD0072D998 /* Main.storyboard */; };
+		713C583927C947D00072D998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713C583827C947D00072D998 /* Assets.xcassets */; };
+		713C583C27C947D00072D998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713C583A27C947D00072D998 /* LaunchScreen.storyboard */; };
+		713C584727C947D00072D998 /* AstroSurfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C584627C947D00072D998 /* AstroSurfTests.swift */; };
+		713C585227C947D00072D998 /* AstroSurfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C585127C947D00072D998 /* AstroSurfUITests.swift */; };
+		713C586027C94A930072D998 /* AstroSurfPhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C585F27C94A930072D998 /* AstroSurfPhotoDetailsViewController.swift */; };
+		713C586227C94C7B0072D998 /* AstroSurfSelectedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C586127C94C7B0072D998 /* AstroSurfSelectedPhotoViewController.swift */; };
+		713C586427C94E490072D998 /* AstroSurfFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C586327C94E490072D998 /* AstroSurfFavouritesViewController.swift */; };
+		713C586627CB75DA0072D998 /* AstroSurfPhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C586527CB75DA0072D998 /* AstroSurfPhotoDetailViewModel.swift */; };
+		713C586827CB75FB0072D998 /* AstroSurfNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C586727CB75FB0072D998 /* AstroSurfNetworkingService.swift */; };
+		713C587027CB77180072D998 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C586F27CB77180072D998 /* AppConfig.swift */; };
+		713C587227CB78550072D998 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587127CB78550072D998 /* ErrorManager.swift */; };
+		713C587427CB7F060072D998 /* AstronomerPhotoVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587327CB7F060072D998 /* AstronomerPhotoVideoModel.swift */; };
+		713C587627CB8B180072D998 /* Reaachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587527CB8B180072D998 /* Reaachability.swift */; };
+		713C587927CBD04B0072D998 /* AstroSurf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713C587727CBD04B0072D998 /* AstroSurf.xcdatamodeld */; };
+		713C587B27CBE8070072D998 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587A27CBE8070072D998 /* CoreDataManager.swift */; };
+		713C587F27CBEA410072D998 /* FavouriteImage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587D27CBEA410072D998 /* FavouriteImage+CoreDataClass.swift */; };
+		713C588027CBEA410072D998 /* FavouriteImage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C587E27CBEA410072D998 /* FavouriteImage+CoreDataProperties.swift */; };
+		713C588327CC0F500072D998 /* AstroSurfSelectDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C588127CC0F500072D998 /* AstroSurfSelectDateTableViewCell.swift */; };
+		713C588427CC0F500072D998 /* AstroSurfSelectDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713C588227CC0F500072D998 /* AstroSurfSelectDateTableViewCell.xib */; };
+		716DB81B27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716DB81927CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.swift */; };
+		716DB81C27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716DB81A27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.xib */; };
+		716DB81E27CCC7B400118914 /* AstroSurfWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716DB81D27CCC7B400118914 /* AstroSurfWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713C584327C947D00072D998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713C582427C947CD0072D998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713C582B27C947CD0072D998;
+			remoteInfo = AstroSurf;
+		};
+		713C584E27C947D00072D998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713C582427C947CD0072D998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713C582B27C947CD0072D998;
+			remoteInfo = AstroSurf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713C582C27C947CD0072D998 /* AstroSurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroSurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713C582F27C947CD0072D998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		713C583127C947CD0072D998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		713C583327C947CD0072D998 /* AstroSurfSearchPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfSearchPhotoViewController.swift; sourceTree = "<group>"; };
+		713C583627C947CD0072D998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713C583827C947D00072D998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713C583B27C947D00072D998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		713C583D27C947D00072D998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713C584227C947D00072D998 /* AstroSurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroSurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713C584627C947D00072D998 /* AstroSurfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfTests.swift; sourceTree = "<group>"; };
+		713C584827C947D00072D998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713C584D27C947D00072D998 /* AstroSurfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroSurfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713C585127C947D00072D998 /* AstroSurfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfUITests.swift; sourceTree = "<group>"; };
+		713C585327C947D00072D998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713C585F27C94A930072D998 /* AstroSurfPhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfPhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		713C586127C94C7B0072D998 /* AstroSurfSelectedPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfSelectedPhotoViewController.swift; sourceTree = "<group>"; };
+		713C586327C94E490072D998 /* AstroSurfFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfFavouritesViewController.swift; sourceTree = "<group>"; };
+		713C586527CB75DA0072D998 /* AstroSurfPhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfPhotoDetailViewModel.swift; sourceTree = "<group>"; };
+		713C586727CB75FB0072D998 /* AstroSurfNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfNetworkingService.swift; sourceTree = "<group>"; };
+		713C586F27CB77180072D998 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		713C587127CB78550072D998 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		713C587327CB7F060072D998 /* AstronomerPhotoVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomerPhotoVideoModel.swift; sourceTree = "<group>"; };
+		713C587527CB8B180072D998 /* Reaachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reaachability.swift; sourceTree = "<group>"; };
+		713C587827CBD04B0072D998 /* AstroSurf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AstroSurf.xcdatamodel; sourceTree = "<group>"; };
+		713C587A27CBE8070072D998 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		713C587D27CBEA410072D998 /* FavouriteImage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteImage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		713C587E27CBEA410072D998 /* FavouriteImage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteImage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		713C588127CC0F500072D998 /* AstroSurfSelectDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfSelectDateTableViewCell.swift; sourceTree = "<group>"; };
+		713C588227CC0F500072D998 /* AstroSurfSelectDateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstroSurfSelectDateTableViewCell.xib; sourceTree = "<group>"; };
+		716DB81927CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfFavouritePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		716DB81A27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstroSurfFavouritePhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		716DB81D27CCC7B400118914 /* AstroSurfWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroSurfWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713C582927C947CD0072D998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C583F27C947D00072D998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C584A27C947D00072D998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713C582327C947CD0072D998 = {
+			isa = PBXGroup;
+			children = (
+				713C582E27C947CD0072D998 /* AstroSurf */,
+				713C584527C947D00072D998 /* AstroSurfTests */,
+				713C585027C947D00072D998 /* AstroSurfUITests */,
+				713C582D27C947CD0072D998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713C582D27C947CD0072D998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713C582C27C947CD0072D998 /* AstroSurf.app */,
+				713C584227C947D00072D998 /* AstroSurfTests.xctest */,
+				713C584D27C947D00072D998 /* AstroSurfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713C582E27C947CD0072D998 /* AstroSurf */ = {
+			isa = PBXGroup;
+			children = (
+				716DB81827CC357D00118914 /* Cells */,
+				713C587C27CBE80B0072D998 /* CoreData */,
+				713C586927CB76130072D998 /* AppDelegate */,
+				713C586E27CB77040072D998 /* Config */,
+				713C586D27CB76540072D998 /* Networking */,
+				713C586B27CB763D0072D998 /* ViewModel */,
+				713C586A27CB76270072D998 /* ViewControllers */,
+				713C583527C947CD0072D998 /* Main.storyboard */,
+				713C583827C947D00072D998 /* Assets.xcassets */,
+				713C583A27C947D00072D998 /* LaunchScreen.storyboard */,
+				713C583D27C947D00072D998 /* Info.plist */,
+			);
+			path = AstroSurf;
+			sourceTree = "<group>";
+		};
+		713C584527C947D00072D998 /* AstroSurfTests */ = {
+			isa = PBXGroup;
+			children = (
+				713C584627C947D00072D998 /* AstroSurfTests.swift */,
+				713C584827C947D00072D998 /* Info.plist */,
+			);
+			path = AstroSurfTests;
+			sourceTree = "<group>";
+		};
+		713C585027C947D00072D998 /* AstroSurfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				713C585127C947D00072D998 /* AstroSurfUITests.swift */,
+				713C585327C947D00072D998 /* Info.plist */,
+			);
+			path = AstroSurfUITests;
+			sourceTree = "<group>";
+		};
+		713C586927CB76130072D998 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				713C582F27C947CD0072D998 /* AppDelegate.swift */,
+				713C583127C947CD0072D998 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		713C586A27CB76270072D998 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				713C583327C947CD0072D998 /* AstroSurfSearchPhotoViewController.swift */,
+				713C586127C94C7B0072D998 /* AstroSurfSelectedPhotoViewController.swift */,
+				713C586327C94E490072D998 /* AstroSurfFavouritesViewController.swift */,
+				713C585F27C94A930072D998 /* AstroSurfPhotoDetailsViewController.swift */,
+				716DB81D27CCC7B400118914 /* AstroSurfWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		713C586B27CB763D0072D998 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				713C586527CB75DA0072D998 /* AstroSurfPhotoDetailViewModel.swift */,
+				713C587327CB7F060072D998 /* AstronomerPhotoVideoModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		713C586D27CB76540072D998 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				713C586727CB75FB0072D998 /* AstroSurfNetworkingService.swift */,
+				713C587127CB78550072D998 /* ErrorManager.swift */,
+				713C587527CB8B180072D998 /* Reaachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		713C586E27CB77040072D998 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				713C586F27CB77180072D998 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		713C587C27CBE80B0072D998 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				713C587D27CBEA410072D998 /* FavouriteImage+CoreDataClass.swift */,
+				713C587E27CBEA410072D998 /* FavouriteImage+CoreDataProperties.swift */,
+				713C587A27CBE8070072D998 /* CoreDataManager.swift */,
+				713C587727CBD04B0072D998 /* AstroSurf.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		716DB81827CC357D00118914 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				716DB81927CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.swift */,
+				716DB81A27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.xib */,
+				713C588127CC0F500072D998 /* AstroSurfSelectDateTableViewCell.swift */,
+				713C588227CC0F500072D998 /* AstroSurfSelectDateTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713C582B27C947CD0072D998 /* AstroSurf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713C585627C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurf" */;
+			buildPhases = (
+				713C582827C947CD0072D998 /* Sources */,
+				713C582927C947CD0072D998 /* Frameworks */,
+				713C582A27C947CD0072D998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroSurf;
+			productName = AstroSurf;
+			productReference = 713C582C27C947CD0072D998 /* AstroSurf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		713C584127C947D00072D998 /* AstroSurfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713C585927C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurfTests" */;
+			buildPhases = (
+				713C583E27C947D00072D998 /* Sources */,
+				713C583F27C947D00072D998 /* Frameworks */,
+				713C584027C947D00072D998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713C584427C947D00072D998 /* PBXTargetDependency */,
+			);
+			name = AstroSurfTests;
+			productName = AstroSurfTests;
+			productReference = 713C584227C947D00072D998 /* AstroSurfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		713C584C27C947D00072D998 /* AstroSurfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713C585C27C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurfUITests" */;
+			buildPhases = (
+				713C584927C947D00072D998 /* Sources */,
+				713C584A27C947D00072D998 /* Frameworks */,
+				713C584B27C947D00072D998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713C584F27C947D00072D998 /* PBXTargetDependency */,
+			);
+			name = AstroSurfUITests;
+			productName = AstroSurfUITests;
+			productReference = 713C584D27C947D00072D998 /* AstroSurfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713C582427C947CD0072D998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					713C582B27C947CD0072D998 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					713C584127C947D00072D998 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 713C582B27C947CD0072D998;
+					};
+					713C584C27C947D00072D998 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 713C582B27C947CD0072D998;
+					};
+				};
+			};
+			buildConfigurationList = 713C582727C947CD0072D998 /* Build configuration list for PBXProject "AstroSurf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713C582327C947CD0072D998;
+			productRefGroup = 713C582D27C947CD0072D998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713C582B27C947CD0072D998 /* AstroSurf */,
+				713C584127C947D00072D998 /* AstroSurfTests */,
+				713C584C27C947D00072D998 /* AstroSurfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713C582A27C947CD0072D998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713C583C27C947D00072D998 /* LaunchScreen.storyboard in Resources */,
+				713C583927C947D00072D998 /* Assets.xcassets in Resources */,
+				713C583727C947CD0072D998 /* Main.storyboard in Resources */,
+				716DB81C27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.xib in Resources */,
+				713C588427CC0F500072D998 /* AstroSurfSelectDateTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C584027C947D00072D998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C584B27C947D00072D998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713C582827C947CD0072D998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713C588327CC0F500072D998 /* AstroSurfSelectDateTableViewCell.swift in Sources */,
+				713C587027CB77180072D998 /* AppConfig.swift in Sources */,
+				713C586427C94E490072D998 /* AstroSurfFavouritesViewController.swift in Sources */,
+				713C586227C94C7B0072D998 /* AstroSurfSelectedPhotoViewController.swift in Sources */,
+				713C587427CB7F060072D998 /* AstronomerPhotoVideoModel.swift in Sources */,
+				713C587627CB8B180072D998 /* Reaachability.swift in Sources */,
+				713C588027CBEA410072D998 /* FavouriteImage+CoreDataProperties.swift in Sources */,
+				713C586827CB75FB0072D998 /* AstroSurfNetworkingService.swift in Sources */,
+				713C587F27CBEA410072D998 /* FavouriteImage+CoreDataClass.swift in Sources */,
+				716DB81B27CC358D00118914 /* AstroSurfFavouritePhotoCollectionViewCell.swift in Sources */,
+				716DB81E27CCC7B400118914 /* AstroSurfWebViewController.swift in Sources */,
+				713C587927CBD04B0072D998 /* AstroSurf.xcdatamodeld in Sources */,
+				713C587227CB78550072D998 /* ErrorManager.swift in Sources */,
+				713C586027C94A930072D998 /* AstroSurfPhotoDetailsViewController.swift in Sources */,
+				713C583427C947CD0072D998 /* AstroSurfSearchPhotoViewController.swift in Sources */,
+				713C583027C947CD0072D998 /* AppDelegate.swift in Sources */,
+				713C583227C947CD0072D998 /* SceneDelegate.swift in Sources */,
+				713C587B27CBE8070072D998 /* CoreDataManager.swift in Sources */,
+				713C586627CB75DA0072D998 /* AstroSurfPhotoDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C583E27C947D00072D998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713C584727C947D00072D998 /* AstroSurfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713C584927C947D00072D998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713C585227C947D00072D998 /* AstroSurfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		713C584427C947D00072D998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713C582B27C947CD0072D998 /* AstroSurf */;
+			targetProxy = 713C584327C947D00072D998 /* PBXContainerItemProxy */;
+		};
+		713C584F27C947D00072D998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713C582B27C947CD0072D998 /* AstroSurf */;
+			targetProxy = 713C584E27C947D00072D998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		713C583527C947CD0072D998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713C583627C947CD0072D998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		713C583A27C947D00072D998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713C583B27C947D00072D998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713C585427C947D00072D998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713C585527C947D00072D998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713C585727C947D00072D998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		713C585827C947D00072D998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		713C585A27C947D00072D998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurfTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroSurf.app/AstroSurf";
+			};
+			name = Debug;
+		};
+		713C585B27C947D00072D998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurfTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroSurf.app/AstroSurf";
+			};
+			name = Release;
+		};
+		713C585D27C947D00072D998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroSurf;
+			};
+			name = Debug;
+		};
+		713C585E27C947D00072D998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroSurfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.AstroSurfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroSurf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713C582727C947CD0072D998 /* Build configuration list for PBXProject "AstroSurf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713C585427C947D00072D998 /* Debug */,
+				713C585527C947D00072D998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713C585627C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713C585727C947D00072D998 /* Debug */,
+				713C585827C947D00072D998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713C585927C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713C585A27C947D00072D998 /* Debug */,
+				713C585B27C947D00072D998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713C585C27C947D00072D998 /* Build configuration list for PBXNativeTarget "AstroSurfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713C585D27C947D00072D998 /* Debug */,
+				713C585E27C947D00072D998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		713C587727CBD04B0072D998 /* AstroSurf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				713C587827CBD04B0072D998 /* AstroSurf.xcdatamodel */,
+			);
+			currentVersion = 713C587827CBD04B0072D998 /* AstroSurf.xcdatamodel */;
+			path = AstroSurf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 713C582427C947CD0072D998 /* Project object */;
+}
